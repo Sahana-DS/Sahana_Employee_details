@@ -14,11 +14,11 @@ const app = express();
 // CORS middleware
 app.use(cors({
   origin: [
-    'http://16.171.1.132:3000', // Login Server
-    'http://16.171.1.132:3001', // Employee Server
-    'http://16.171.1.132:5500', // Live Server (Default)
-    'http://127.0.0.1:5500', // Live Server (IP)
-    'http://16.171.1.132:5501'  // Live Server (Alternate)
+    'http://54.197.198.72:3000', // Login Server
+    'http://54.197.198.72:3001', // Employee Server
+    'http://54.197.198.72:5500', // Live Server (Default)
+    'http://54.197.198.72:5500', // Live Server (IP)
+    'http://54.197.198.72:5501'  // Live Server (Alternate)
   ]
 }));
 app.use(express.json());
